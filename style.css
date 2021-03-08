@@ -1,1 +1,30 @@
 
+body {
+ margin: 0; 
+ 
+}
+ol {
+  display: inline;
+  text-align: center;
+  margin-left: 50px;
+}
+ol:hover {
+  color: blueviolet;
+}
+#header {
+  background-color: #0099ff;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  opacity: 0.7;
+}
+hide {
+  visibility: hidden;
+}
+#icon {
+  
+}
+#background1 {
+  background: url(pastel-pink-and-blue-background.jpeg);
+  background-size: cover;
+}
