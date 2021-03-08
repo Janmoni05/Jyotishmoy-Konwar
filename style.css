@@ -28,3 +28,11 @@ hide {
   background: url(pastel-pink-and-blue-background.jpeg);
   background-size: cover;
 }
+
+#n {
+    font-family: "Sofia", sans-serif;
+    
+}
+#about {
+    font-family: "Sofia", sans-serif;
+}
