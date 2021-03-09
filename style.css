@@ -36,3 +36,8 @@ hide {
 #about {
     font-family: "Sofia", sans-serif;
 }
+@media screen (max-width: 400px){
+  body {
+    background-color: red;
+  }
+}
