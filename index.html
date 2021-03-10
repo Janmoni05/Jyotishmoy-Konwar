@@ -9,27 +9,54 @@
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
               
             <!--project-->
             
+            
+<script>
+ 
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+ 
+</script>
+
+
+
+
             <!--header-->
 
               
-    <div class="" id="background1">
-      <div id="header" class="bg-blue">
       
-      <center>
         
-     <ol>Home</ol>
-     <ol>Images</ol>
-     <ol>Services</ol>
-     <ol>Code</ol>
-     <ol>Contact me</ol>
-      </center>
-      </div>
-      <div class="container-fluid" id="">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+<div class="topnav " id="myTopnav">
+  <center>
+  <a href="#home" class="active bg-success">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </center>
+  </a>
+  
+</div>
+
+      
+      <div class="container-fluid" id="background1">
         <div class="container">
         
           
@@ -37,7 +64,7 @@
         <table>
           <tr>
             <td>
-              <div id="name" style="float: left; top: 23vh; position: relative;">
+              <div id="name" style="float: left; top: 20vh; position: relative;">
           <h3 id="n"class="text-primary ">I'm Jyotishmoy Konwar</h3>
           <p class="text-danger">Web designer and Web developer</p>
           <br>
@@ -45,7 +72,7 @@
           <button class="btn btn-outline-primary">About me</button>
           </a>
         </div>
-          <img style="float: right;" src="flame-space-adventures.png" alt="" width="50%" />
+          <img class="animate1"style="float: right;" src="flame-space-adventures.png" alt="" width="50%" />
           </td>
           </tr>
         </table>
@@ -90,6 +117,11 @@
     
 </div>
 
+<div class="container">
+  
+
+
+</div>
 
 
 
